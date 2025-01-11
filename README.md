@@ -17,5 +17,9 @@
 * 1.11 - 1.14 learn to control the lattice screen.
 * 1.14 - 1.24 learn and write time control code.
 * 1.25 - 1.27 Verify and refine the code to make sure it works properly.
+# Author
+* Shi Jinjia
+* Yan XingDong
+* Zhang Qichao
 # ***THANKS***
 

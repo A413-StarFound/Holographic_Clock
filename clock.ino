@@ -1,3 +1,7 @@
+/*
+    The code depends on the oled , according to the IIC.
+    THE adafruit_GFX and adafruit_SSD1306 is the head file to drive the oled screen
+*/
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>

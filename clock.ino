@@ -15,8 +15,8 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-const char* ssid = "loong的电子节点";  
-const char* password = "shijinjia";  
+const char* ssid = "YOUR_SSID";  
+const char* password = "YOUR_PASSWAED";  
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 3600, 60000);

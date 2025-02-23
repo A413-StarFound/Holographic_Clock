@@ -1,3 +1,7 @@
+/*
+    The code depends on the oled , according to the IIC.
+    THE adafruit_GFX and adafruit_SSD1306 is the head file to drive the oled screen
+*/
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -15,8 +19,8 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-const char* ssid = "loong的电子节点";  
-const char* password = "shijinjia";  
+const char* ssid = "YOUR_SSID";  
+const char* password = "YOUR_PASSWAED";  
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 3600, 60000);

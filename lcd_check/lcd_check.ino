@@ -15,7 +15,7 @@ SPIClass spi(VSPI); // 使用VSPI总线
 MD_Parola disp = MD_Parola(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 
 void setup() {
-  Serial.begin(115200); // 初始化串口通信
+  Serial.begin(115200); // 初始化串口通信;
   disp.begin();
   disp.setIntensity(0);  // 设置显示亮度
   pinMode(CS_PIN, OUTPUT);

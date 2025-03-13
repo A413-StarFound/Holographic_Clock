@@ -18,10 +18,10 @@ const int   daylightOffset_sec = 0;
 //#define HARDWARE_TYPE MD_MAX72XX::GENERIC_HW
 
 // 每个点阵屏的片选引脚定义
-#define CS_PIN_1 5
-#define CS_PIN_2 4
-#define CS_PIN_3 2
-#define CS_PIN_4 15
+#define CS_PIN_1 15
+#define CS_PIN_2 2
+#define CS_PIN_3 4
+#define CS_PIN_4 5
 
 #define MAX_DEVICES 1  // 每个点阵屏设备数量为 1
 
